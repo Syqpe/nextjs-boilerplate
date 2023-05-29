@@ -1,0 +1,16 @@
+.column_action {
+    &__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__input {
+        width: 120px;
+        margin-right: 8px;
+    }
+
+    &__btn {
+        padding: 6px 8px;
+    }
+}

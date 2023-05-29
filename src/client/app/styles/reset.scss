@@ -1,0 +1,32 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: var(--color-white);
+
+    // ресеты для компонентов
+    .Modal-Content {
+        border-radius: 32px;
+    }
+
+    .Menu {
+        & .Menu-Item > .Icon_glyph_type-check {
+            display: none !important;
+        }
+    }
+    // ресеты для компонентов
+}
+
+/* stylelint-disable selector-max-id, selector-max-universal */
+html,
+body,
+#__next {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* stylelint-enable */

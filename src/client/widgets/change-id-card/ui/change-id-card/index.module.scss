@@ -1,0 +1,28 @@
+.change_id_card {
+    width: max-content;
+    min-width: 200px;
+    max-width: 320px;
+    min-height: 140px;
+    padding: 24px;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__info {
+        margin-top: 8px;
+    }
+
+    &__task {
+        display: flex;
+        align-items: center;
+
+        margin-top: 8px;
+    }
+
+    &__task_icon {
+        margin-right: 5px;
+    }
+}

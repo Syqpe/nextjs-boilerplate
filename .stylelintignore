@@ -1,0 +1,7 @@
+# Deps
+node_modules/
+dist
+jest
+public
+releases
+scripts

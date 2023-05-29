@@ -1,0 +1,10 @@
+{
+  "extends": "../../.stylelintrc.json",
+  "ignoreFiles": ["**/*.ts", "**/*.tsx"],
+  "rules": {
+    "number-leading-zero": null,
+    "scss/selector-no-redundant-nesting-selector": null,
+    "length-zero-no-unit": null,
+    "no-descending-specificity": null
+  }
+}

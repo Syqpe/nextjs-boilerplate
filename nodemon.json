@@ -1,0 +1,5 @@
+{
+  "watch": ["src/server", "src/common"],
+  "exec": "npm run build:server && npm start",
+  "ext": "js ts"
+}

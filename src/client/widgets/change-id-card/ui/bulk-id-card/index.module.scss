@@ -1,0 +1,72 @@
+.modal {
+    overflow: hidden;
+
+    width: max-content;
+    min-width: 650px;
+    max-width: 800px;
+    height: max-content;
+    min-height: 300px;
+    padding: 32px;
+
+    border-radius: 32px;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+
+        height: 100%;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        margin-bottom: 24px;
+    }
+
+    &__close {
+        margin-top: 10px;
+
+        & span {
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    &__info {
+        display: flex;
+
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    &__info_icon {
+        margin-right: 5px;
+    }
+
+    &__table {
+        margin: 24px 0px;
+    }
+
+    &__table_m {
+        height: 140px;
+    }
+
+    &__table_l {
+        height: 200px;
+    }
+
+    &__action {
+        width: 100%;
+
+        & > button {
+            width: 100%;
+            padding: 14px;
+
+            &::before {
+                border-radius: 16px;
+            }
+        }
+    }
+}

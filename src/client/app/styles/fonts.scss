@@ -1,0 +1,26 @@
+@import './common.scss';
+
+/* stylelint-disable declaration-colon-newline-after, value-list-comma-newline-after, value-list-comma-space-after */
+@font-face {
+    font-family: 'YS Text';
+    src: local('YS Text'), url('https://yastatic.net/s3/home/fonts/ys/1/text-regular.woff2') format('woff2'),
+        url('https://yastatic.net/s3/home/fonts/ys/1/text-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: fallback;
+}
+/* stylelint-enable declaration-colon-newline-after, value-list-comma-newline-after, value-list-comma-space-after */
+
+:root {
+    --font-yandex-sans: 'YS Text', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* stylelint-disable at-rule-no-unknown, order/order */
+body {
+    @extend %font;
+
+    color: var(--color-black);
+    font-feature-settings: 'liga', 'kern';
+}
+/* stylelint-enable */

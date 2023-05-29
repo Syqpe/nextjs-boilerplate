@@ -1,0 +1,61 @@
+.modal {
+    overflow: hidden;
+
+    width: 500px;
+    height: max-content;
+    padding: 32px;
+
+    border-radius: 32px;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+
+        height: 100%;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        margin-bottom: 24px;
+    }
+
+    &__close {
+        margin-top: 10px;
+
+        & span {
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    &__feedback {
+        margin: 16px 0px;
+    }
+
+    &__action {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__cancel,
+    &__submit {
+        flex: 1 1 auto;
+
+        & > button {
+            width: 100%;
+            padding: 14px;
+
+            &::before {
+                border-radius: 16px;
+            }
+        }
+    }
+
+    &__cancel {
+        margin-right: 6px;
+    }
+}

@@ -1,0 +1,18 @@
+.more_row_block {
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+
+    & > button {
+        flex: 1 0 0;
+
+        margin-left: 4px;
+        padding: 6px;
+
+        color: var(--color-typo-primary);
+
+        &:first-child {
+            margin-left: 0px;
+        }
+    }
+}

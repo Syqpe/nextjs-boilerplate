@@ -1,0 +1,28 @@
+.column_date {
+    &__inner {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        cursor: pointer;
+    }
+
+    &__modify {
+        display: flex;
+        align-items: center;
+    }
+
+    &__create {
+        display: flex;
+        align-items: center;
+    }
+
+    &__icon {
+        margin-left: 5px;
+    }
+}

@@ -1,0 +1,11 @@
+.not_access {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    & > button {
+        padding: 8px;
+    }
+}

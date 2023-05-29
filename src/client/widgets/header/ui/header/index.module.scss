@@ -1,0 +1,28 @@
+.header {
+    border: 1px solid var(--color-bg-border);
+
+    &__inner {
+        & > header > div {
+            max-width: 100% !important;
+        }
+    }
+
+    &__theme-dark {
+        --header-fill-color: #1c1d28;
+        --header-search-fill-color-base: #292b3b;
+        --header-search-fill-color-hover: #373a50;
+        --header-search-button-typo-color: #888994;
+        --header-search-textinput-typo-color: #fff;
+        --header-search-textinput-fill-color: #1c1d28;
+    }
+
+    &__tumbler {
+        & span {
+            align-items: center !important;
+        }
+    }
+
+    &__user {
+        margin-left: 16px;
+    }
+}

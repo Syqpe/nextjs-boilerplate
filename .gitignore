@@ -1,0 +1,22 @@
+# Build
+dist
+
+# Next
+.next
+
+# Env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+
+# Deps
+node_modules/
+
+# Logs
+npm-debug.log*
+
+# Lock files
+package-lock.json

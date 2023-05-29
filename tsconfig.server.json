@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "dist/src/",
+    "target": "esnext",
+    "isolatedModules": false,
+    "noEmit": false
+  },
+  "include": ["src/server/**/*.js", "src/server/**/*.ts", "@types"]
+}

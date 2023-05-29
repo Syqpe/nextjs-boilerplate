@@ -1,0 +1,23 @@
+.changeinfo {
+    &__inner {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    &__issue {
+        width: 200px;
+        margin-right: 24px;
+    }
+
+    &__issue_title {
+        margin-bottom: 10px;
+    }
+
+    &__comment {
+        flex: 1 1 auto;
+    }
+
+    &__comment_title {
+        margin-bottom: 10px;
+    }
+}
